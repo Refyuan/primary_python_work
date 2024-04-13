@@ -9,7 +9,7 @@ def pailie(stack:List[int],source:List,cur,target):
     for i in range(cur,4):
         if not source[i] in stack:
             stack.append(source[i])
-            pailie(stack,source,i,target)
+            pailie(stack,source,0,target)
             stack.pop()
 
 source = [1,2,3,4]
