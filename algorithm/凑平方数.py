@@ -16,7 +16,7 @@ def isAlone(num):
 def isAlone2(list: List):
     a = ""
     for i in list:
-        a = a + str(i);
+        a = a + str(i)
     return isAlone(a)
 
 

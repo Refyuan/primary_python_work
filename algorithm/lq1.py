@@ -3,14 +3,11 @@ for i in range(12345678,98765433):
     str_=str(i)
     index=str_.find('2')
     if index != -1:
-        str_ = str_[index + 1:]
-        index = str_.find('0')
+        index = str_[index+1:].find('0')
         if index !=-1:
-            str_=str_[index+1:]
-            index= str_.find('2')
+            index= str_[index+1:].find('2')
             if index != -1:
-                str_ = str_[index + 1:]
-                index = str_.find('3')
+                index = str_[index+1:].find('3')
                 if index != -1:
                     sum_+=1
                 else:
