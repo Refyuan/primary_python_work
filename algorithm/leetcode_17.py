@@ -1,3 +1,5 @@
-l=['a','b','c']
-m=''.join(l)
-print(m)
+p=6
+q=None
+print(p is q)
+print('gpp')
+gpp
